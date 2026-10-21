@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="icon" href="dice/1.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <h1>Dice Roller</h1>
+        <label for="numOfDice" id="label">Enter how many dice to roll</label>
+        <input type="number" id="numOfDice" value="1" min="1">
+        <button onclick="diceRoll()">Roll Dice</button>
+        <div id="diceResult"></div>
+        <div id="diceImages"></div>
+        <p id="total"></p>
+    </div>
+</body>
+</html>
